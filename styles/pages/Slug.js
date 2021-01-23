@@ -59,3 +59,28 @@ export const GoBack = styled.a`
 
   padding-top: 36px;
 `;
+
+export const DownloadApp = styled.div`
+  padding-top: 40px;
+  text-align: center;
+
+  h3 {
+    padding-bottom: 40px;
+  }
+
+  a {
+    background: #ef5ba1;
+    border-radius: 10px;
+    padding: 15px;
+    color: #312e38;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: background-color 0.2s;
+    text-decoration: none;
+
+    &:hover {
+      background: ${shade(0.2, '#ef5ba1')};
+    } 
+  }
+`;
